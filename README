@@ -10,3 +10,11 @@ Exapmle:
  4 6 17
  
 Answer: 30(1 + 2 + 17)
+
+Solution:
+There are two possible solution.
+
+1) Follow each path possible.  For each node that has children, go down each path.
+2) Work from the bottom up.  Compare the children.  Current node += max(left child, right child).  By the top node, you already have the answer.
+
+Solution 1 will tests recursion.  Solution 2 provides efficiency.
