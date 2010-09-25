@@ -1,1 +1,12 @@
 John Bae
+
+triangle
+---
+Given a triangle of numbers, find the max sum that is possible from all the paths possible.
+
+Exapmle:
+   1
+  9 2
+ 4 6 17
+ 
+Answer: 30(1 + 2 + 17)
