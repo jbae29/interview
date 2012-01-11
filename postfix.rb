@@ -9,15 +9,8 @@ class Postfix
 
   #  Operate on the two integers
   def operation(a, b, oper)
-    case oper
-    when "+"
-      return a + b
-    when "-"
-      return a - b
-    when "*"
-      return a * b
-    when "/"
-      return a / b
+    if operator?(oper)
+      a.send(oper, b)
     else
       nil
     end
