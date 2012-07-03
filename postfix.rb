@@ -17,7 +17,7 @@ class Postfix
   end
 
   def operator?(oper)
-    oper == "+" || oper == "-" || oper == "*" || oper == "/"
+    return ["+", "-", "*", "/"].include? oper
   end
 
   #  Get the numerical value.
